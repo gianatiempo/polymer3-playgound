@@ -16,7 +16,7 @@ import '@polymer/polymer/lib/elements/dom-if.js';
 import '@polymer/paper-checkbox/paper-checkbox.js';
 import { setPassiveTouchGestures } from '@polymer/polymer/lib/utils/settings';
 
-class StartPolymer3 extends PolymerElement {
+class Polymer3App extends PolymerElement {
   constructor() {
     super();
     // Resolve warning about scroll performance
@@ -86,4 +86,4 @@ class StartPolymer3 extends PolymerElement {
 }
 
 // Register the element with the browser.
-customElements.define('start-polymer3', StartPolymer3);
+customElements.define('polymer3-app', Polymer3App);
