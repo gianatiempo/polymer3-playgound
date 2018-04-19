@@ -15,6 +15,7 @@ import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import '@polymer/polymer/lib/elements/dom-if.js';
 import '@polymer/paper-checkbox/paper-checkbox.js';
 import { setPassiveTouchGestures } from '@polymer/polymer/lib/utils/settings';
+import '/src/header.js';
 
 class Polymer3App extends PolymerElement {
   constructor() {
@@ -40,6 +41,8 @@ class Polymer3App extends PolymerElement {
           --paper-checkbox-unchecked-ink-color: #FFFFFF;
         }
       </style>
+
+      <poly-header>This should be replaced</poly-header>
 
       <h1>Start Polymer 3.0</h1>
       <p>[[message]]</p>
